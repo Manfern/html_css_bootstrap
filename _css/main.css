@@ -120,18 +120,23 @@
 			float: left;
 		vertical-align: top;
 		list-style-type: none;
-		margin-top:0px;
-		margin-left:20px;
+		margin-top:15px;
+		margin-left:0px;
 		margin-right:20px;
+		border-bottom: 2px solid #e3dbd9;
 	}
 	.menu2 li{
-		margin-left: 20px;
-	 text-align: center;
-	 float: left;
+		padding-left: -10px;
+		padding-right: -10px;
+		margin-left: 0px;
+	 	text-align: center;
+	 	float: left;
+	 	display: block;
+	
 	 
+		height: 52px;
 		
 	}
-
 	.menu2 a {
 	  
 	  width: 20%;
@@ -142,6 +147,14 @@
 	  display: inline;
 
 	}
+	.menu2 li:hover{
+		background-image: url(../_img/i_tab_hover.png);
+		background-size: cover;
+		background-position: center; 
+
+	}
+
+	
 	.menu a {
 	  
 	  width: 20%;
@@ -179,6 +192,7 @@
 		margin-bottom: 0px;
 	}
 	h1{
+		margin-left: 20px;
 		margin-top: 0px;
 		padding-top: 20px;
 		font-size: 40px;
@@ -413,3 +427,151 @@
   height: 100px
 }
 /* End carousel */
+
+/* Dropdown Button */
+.dropbtn {
+    /*background-color: #fff;*/
+    color: #000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	width: 250px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.widget_title{
+	padding-left:10px;
+	width:240px;
+	background-color: #578724;
+	color: #fff !important;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	color: #3e8e41;
+	
+}
+.pop1{
+	margin-top: 60px;
+	margin-left: 0%;
+}
+.pop2{
+	margin-top: 60px;
+	margin-left: 10%;
+}
+.pop3{
+	margin-top: 60px;
+	margin-left: 20%;
+}
+.pop4{
+	margin-top: 60px;
+	margin-left: 25%;
+}
+.pop5{
+	margin-top: 60px;
+	margin-left: 40%;
+}
+/* Show the dropdown menu on hover */
+.pop1:hover, .pop1.a:hover{
+	z-index: 999;
+	display: block;
+}
+.pop2:hover, .pop2.a:hover{
+	z-index: 999;
+	display: block;
+}
+.pop3:hover, .pop3.a:hover{
+	z-index: 999;
+	display: block;
+}
+.pop4:hover, .pop4.a:hover{
+	z-index: 999;
+	display: block;
+}
+.pop1 a.more:hover+.pop5{
+	z-index: 999;
+	display: block;
+}
+.pop5:hover, .pop5.a:hover{
+	z-index: 999;
+	display: block;
+}
+.pop6:hover, .pop6.a:hover{
+	z-index: 999;
+	display: block;
+}
+.pop:hover, .pop.a:hover{
+	z-index: 999;
+	display: block;
+}
+li.one:hover + div.pop1 {
+	z-index: 999;
+    display: block;
+} 
+/*.pop1.a:hover + div.pop1>div.pop5{
+	z-index: 999;
+    display: block;
+} */
+li.two:hover + div.pop2 {
+	z-index: 999;
+    display: block;
+} 
+li.three:hover + div.pop3 {
+	z-index: 999;
+    display: block;
+} 
+li.four:hover + div.pop4 {
+	z-index: 999;
+    display: block;
+} 
+li.five:hover+div.pop5{
+	float: right;
+	margin-right: 20px;
+}
+li.six:hover+div.pop6{
+	float: right;
+	margin-right: 20px;
+}
+li.first:hover+div.pop{
+	float: right;
+	margin-right: 20px;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color: #3e8e41;
+}
+
+.info-block-bottom{
+	color: #000;
+}
+.banner-h-bottom{
+	margin-top: 20px;
+}
+.side-slider1{
+	width: 248px;
+}
+.side-slider2{
+	width: 248px;
+}
