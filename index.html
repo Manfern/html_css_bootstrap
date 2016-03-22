@@ -10,9 +10,6 @@
 <body>
 <div class="container">
 	<div class="header">
-		<div class="logo">
-			<img src="_img/logo.png" alt="">
-		</div>
 		<div class="top-l-corn-links">
 			<ul class="menu">
 				<li><a href="">Екатеринбург</a></li>
@@ -20,9 +17,16 @@
 				<li><a href="">Зарегистрироваться</a></li>
 			</ul>
 		</div>
-		<input type="text" id="search" placeholder="Найти из 210 000 товаров и услуг">
-		<div class="btn-search-drop">Товары и услуги</div>
-		<div class="btn-search-go"></div>
+		<div class="logo">
+			<img src="_img/logo.png" alt="">
+		</div>
+		
+		<div class="search-block">
+			<input type="text" id="search" placeholder="Найти из 210 000 товаров и услуг"></input>
+			<span class="btn-search-drop">Товары и услуги</span>
+			<span class="btn-search-go"><img src="_img/i_lupa.png" alt=""></soab>
+		</div>
+		
 	</div>
 
 	<div class="main">
@@ -52,7 +56,7 @@
 					<li class="three dropdown"><a href="#" class="dropbtn">Статьи <span class="glyphicon glyphicon-chevron-down"></a></li>
 					<div class="dropdown-content pop3">
 				    	<a href="#">	</a>
-				    	<a href="#">Лучшие места для дайвинга</a>
+				    	<a href="#"></a>
 				  			</div>
 					<li class="four dropdown"><a href="#" class="dropbtn">Новости компаний <span class="glyphicon glyphicon-chevron-down"></a></li>		
 					<div class="dropdown-content pop4">
@@ -120,12 +124,49 @@
 					<div class="slider"></div>
 				</div>
 			</div>
-			<div class="banner-h-bottom"></div>
-			<h2></h2>
-			<div class="banner-slider-bottom"></div>
+			<div class="banner-h-bottom">
+				<img src="_img/banner_h_main_bottom.png" alt="">
+			</div>
+			<h2>Ближайшие выставки </h2>
+			<div class="banner-slider-bottom">
+				
+			</div>
 	</div>
 	<div class="sidebar">
 		<img src="_img/banner_v_side.png" alt="">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="_img/side_logo_kitpres.png" alt="">
+    </div>
+
+    <div class="item">
+      <img src="_img/side_logo_krutpng" alt="">
+    </div>
+
+    <div class="item">
+      <img src="_img/side_logo_parket" alt="">
+    </div>
+
+    <div class="item">
+      <img src="" alt="">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 	</div>
 
 	<div class="footer">

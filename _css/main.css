@@ -1,4 +1,4 @@
-/*Roboto Regular*/
+Roboto Regular*/
 
 	.container-fluid{
 		float: none;
@@ -30,7 +30,44 @@
 		width: 22%;
 	}
 	#search{
+		margin-top: 0px;
+		margin-left: 0px;
+		height: 38px;
+		width: 620px;
+	}
+	.search-block{
+		display: inline;
 		float: right;
+		width: 820px;
+		
+		height: 45px;
+		float: right;
+		border: 4px solid #8bbf4f;
+		margin-bottom: 20px;
+	}
+	.btn-search-drop{
+		padding-top: 8px;
+		margin-top: 2px;
+		border: 1px solid
+		position: absolute;
+		z-index: 99;
+		text-align: center;
+		/*margin-right: 20px;*/
+		height: 35px;
+		background-color: #fff;
+		
+	}
+	.btn-search-go{
+		background-color: #8bbf4f;
+		padding-top: 10px;
+		text-align: center;
+		height: 38px;
+		width: 80px;
+		float: right;
+	}
+	.logo{
+		margin-top: 20px;
+		margin-left: 10px;
 	}
 	.grid img{
 		margin-left: 5px;
@@ -42,37 +79,74 @@
 		display: block;
 	}
 	.top-l-corn-links{
-		margin-right: 50px;
+		text-align: right;
+		margin-right: 30px;
 	}
 	nav ul{
 		float: left;
 	}
 	ul.menu {
+		text-align: left;
 		width: 600px;
 			float: right;
 		vertical-align: top;
 		list-style-type: none;
-		margin-top:20px;
+		margin-top:0px;
 		margin-left:20px;
 		margin-right:20px;
 	}
-
+	
+	h2{
+		font-family: Roboto;
+		font-weight: bold;
+	}
 	.menu li{
-	text-align: center;
-	 float: center;
-	 display: inline;
+		margin-left: 20px;
+	 text-align: center;
+	 float: right;
+	 
+		
+	}
+	ul.menu2 {
+		text-align: left;
+		width: 800px;
+			float: left;
+		vertical-align: top;
+		list-style-type: none;
+		margin-top:0px;
+		margin-left:20px;
+		margin-right:20px;
+	}
+	.menu2 li{
+		margin-left: 20px;
+	 text-align: center;
+	 float: left;
+	 
 		
 	}
 
-
-	.menu a {
-	  display: inline-block;
+	.menu2 a {
+	  
 	  width: 20%;
-	  padding: .75rem 0;
+	  text-align: left;
 	  margin: 0;
 	  text-decoration: none;
 	  color: #006699;
+	  display: inline;
 
+	}
+	.menu a {
+	  
+	  width: 20%;
+	  text-align: right;
+	  margin: 0;
+	  text-decoration: none;
+	  color: #006699;
+	  display: inline;
+
+	}
+	.menu a:hover{
+		color: #000;
 	}
 	
 	
@@ -176,6 +250,8 @@
 		font-size: 30px;
 	}
 	.banner-h-top img{
+		margin-left: 15px;
+		margin-top: 5px;
 		width: 930px;
 	}
 	.section1{
@@ -244,7 +320,7 @@
 	}
 
 	.col-md-3{
-		margin-left: 20px;
+		margin-left: 10px;
 
 		
 	}
@@ -276,4 +352,3 @@
 	h2 span{ position:absolute; top:-150px;}
 	h3{ position:relative; }
 	h3 span{ position:absolute; top:-150px;}
-*/
