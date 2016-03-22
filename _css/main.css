@@ -62,7 +62,7 @@ body{
 		padding-top: 8px;
 		margin-top: 2px;
 		/*border: 1px solid;*/
-		position: absolute;
+		position: relative;
 		z-index: 99;
 		text-align: center;
 		/*margin-right: 20px;*/
