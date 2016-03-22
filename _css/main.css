@@ -11,6 +11,8 @@
 	}
 
 	.container{
+		background-color: #fdf8ef;
+		color: #6aae19;
 		float: none;
 		margin: 0 auto;
 		width: 1280px;
@@ -27,16 +29,52 @@
 	
 		width: 22%;
 	}
-	
+	#search{
+		float: right;
+	}
 	.grid img{
+		margin-left: 5px;
+		margin-top: 15px;
 		width: 280px;
 		height: 200px;
 	}
 	#small-modal{
 		display: block;
 	}
+	.top-l-corn-links{
+		margin-right: 50px;
+	}
+	nav ul{
+		float: left;
+	}
+	ul.menu {
+		width: 600px;
+			float: right;
+		vertical-align: top;
+		list-style-type: none;
+		margin-top:20px;
+		margin-left:20px;
+		margin-right:20px;
+	}
 
-	 
+	.menu li{
+	text-align: center;
+	 float: center;
+	 display: inline;
+		
+	}
+
+
+	.menu a {
+	  display: inline-block;
+	  width: 20%;
+	  padding: .75rem 0;
+	  margin: 0;
+	  text-decoration: none;
+	  color: #006699;
+
+	}
+	
 	
 		  /*@media all and (max-width: 100%;) {*/
 	
@@ -137,6 +175,9 @@
 	.phone b{
 		font-size: 30px;
 	}
+	.banner-h-top img{
+		width: 930px;
+	}
 	.section1{
 
 		
@@ -181,21 +222,35 @@
 
 
 	
-	.img-block{
-		margin-top: 30px;
-		/*width: 883px;
-		display: inline;
-		float: left;*/
-	}
-
+	
 	.cimg {
 		width: 164px;
 	}
-	.grid img{
-		margin-top: 20px;
-		margin-left: 20px;
+	.grid+.grid {
+		
+		margin-top: 30px;
 	}
-	
+	.grid img{
+		
+	}
+	.grid{
+		text-align: center;
+		vertical-align: middle;
+		cursor: pointer;
+		background-image: url(../_img/grid_shadow.png);
+		background-size: cover;
+		height: 300px;
+		width: 300px;
+	}
+
+	.col-md-3{
+		margin-left: 20px;
+
+		
+	}
+	.col-md-3+.col-md-3{
+		margin-left: 70px;
+	}
 
 	
 	
