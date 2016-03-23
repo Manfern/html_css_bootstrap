@@ -553,6 +553,9 @@ body a{
 .banner-h-bottom img{
 	width: 930px;
 } 
+.slider-block a{
+	text-decoration: underline;
+}
 .side-slider1 .carousel-inner{
 	width: 180px !important;
 	padding-right: 10px;
