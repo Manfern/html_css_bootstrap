@@ -553,8 +553,9 @@ body a{
 .banner-h-bottom img{
 	width: 930px;
 } 
-.side-slider1{
-	width: 248px;
+.side-slider1 .carousel-inner{
+	width: 180px !important;
+	padding-right: 10px;
 }
 .side-slider2{
 	width: 248px;
