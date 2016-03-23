@@ -19,7 +19,7 @@ body{
 		margin-right: 20px;
 		margin-left: 20px;
 		
-		font-family: Roboto Medium;
+		font-family: Roboto;
 		font-size: 18px;
 		text-transform: uppercase;
 		font-weight: 700;
@@ -39,6 +39,7 @@ body{
 		float: left;
 
 	}
+	
 	.sidebar{
 		float: right;
 	
@@ -182,14 +183,53 @@ body{
 	ul.nav{
 		margin-left: 30px;
 	}
-	 div.main > nav > ul > li.active{
+	 div.main > nav > ul > li{
+	 	padding-top: 10px;
 		/*z-index: 99;*/
 		/*background-image: url(../_img/i_tab_hover.png) !important;
 		background-size: cover !important;
 		*/
 
 	}
+	div.main > nav > ul > li.active{
+		font-weight: 700;
+		padding-bottom: 15px;
+		z-index: 999;
+		width: auto;
+		height: auto;
+		background-image: url(../_img/i_tab_hover.png) !important;
+		background-size: cover !important;
+		background-color: transparent;
+		background-position: center;
+	}
+	div.main > nav > ul > li:hover{
+		background-color: transparent;
+		padding-bottom: 15px;
+		z-index: 999;
+		width: auto;
+		height: auto;
+		background-image: url(../_img/i_tab_hover.png) !important;
+		background-size: cover !important;
+		
+		background-position: center;
+	}
+	div.main > nav > ul > li:hover a{
+		border: 0px;
+		background-color: transparent;
+	}
+	.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+		background-color: transparent;
+	}
+	.nav-tabs>li.active>a:focus{
 
+	/*	z-index: 999;
+		width: auto;
+		height: auto;
+		background-image: url(../_img/i_tab_hover.png) !important;
+		background-size: cover !important;
+		background-position: center;
+		*/
+	}
 	
 	.menu a {
 	  
@@ -704,6 +744,9 @@ a.thumbnail{
 
 .redthumb{
 	color:red;
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 10px;
 }
 .tab-pane{
 	margin-top: 0px;
@@ -712,4 +755,13 @@ a.thumbnail{
 
 	padding-right: 20px; 
 	padding-bottom: 20px;
+}
+
+.sidebar .media-carousel .left{
+	padding-top: 50px;
+
+}
+.sidebar .media-carousel .right{
+	padding-top: 50px;
+
 }
