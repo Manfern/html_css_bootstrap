@@ -856,7 +856,7 @@ a.carousel-control {
 	margin-left: 50px;
 }
 .dropdown-menu{
-
+	display: none;
 	margin-left: 495px;
 	margin-top: 310px;
 	display: block;
