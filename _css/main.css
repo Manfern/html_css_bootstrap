@@ -383,6 +383,10 @@ body a{
 	.top{
 
 	}
+
+	.footer .col-md-2:first{
+		width: 100px !important;
+	}
 	.container-fluid{
 		background-color: #fcfaf6;
 		height: 90px;
@@ -695,8 +699,9 @@ body a{
 	color: #23527c;
 	}
 .footer-info{
+	margin-left: 50px;
 	line-height: 1.8;
-
+	width: 200px;
 }
 .slider-block{
 	padding-top: 0px;
