@@ -393,8 +393,8 @@ body a{
 		margin-right: 15px;
 		margin-bottom: 20px;
 		padding-top: 0px;
-		height: 90px;
-		background-color: #fff;
+		height: 80px;
+		background-color: #fcfaf6;
 		margin-top: 0px;
 	}
 	.navbar-default .navbar-nav>li>a{
@@ -507,7 +507,7 @@ body a{
 	}
 	.grid+.grid {
 
-		margin-top: 30px;
+		margin-top: 10px;
 	}
 	.grid img{
 
@@ -621,7 +621,7 @@ body a{
 }
 .info-block-bottom{
 	margin-left: 10px;
-	font-size: 14px;
+	font-size: 13px;
 	color: #000;
 	padding-bottom: 100px;
 	width: 920px;
@@ -631,7 +631,7 @@ body a{
 }
 .banner-h-bottom{
 
-	margin-left: 15px;
+	margin-left: 20px;
 	margin-top: 20px;
 }
 .banner-h-bottom img{
@@ -686,6 +686,9 @@ body a{
 
 	margin-right: 15px;
 }
+.footer a{
+	color: #23527c;
+	}
 .footer-info{
 	line-height: 1.8;
 
@@ -734,7 +737,8 @@ a.thumbnail{
 }
 
 .redthumb{
-	text-decoration: underline;
+	border-bottom: 1px dotted #c00000;
+    text-decoration: none;
 	color: #c00000;
 	font-size: 16px;
 	font-weight: 700;
@@ -807,10 +811,13 @@ nav.row{
 .side-slider2 .slide{
 	height: 430px;
 }
+.side-title{
+	font-weight: 500;
+}
 .side-slider2 a{
 	font-weight: 700;
 	font-size: 16px;
-	text-decoration: none;
+	text-decoration: underline;
 }
 .media-carousel .carousel-control.left{
 	border: 0px;
@@ -836,14 +843,19 @@ a.carousel-control {
 }
 .slider3 .carousel-inner .col-md-2+.col-md-2{
 
-	margin-left: -30px;
-
-	padding-left: 20px;
+	margin-left: -45px;
+	
+	/*padding-left: 10px;*/
 
 }
-
+.slider3 .media-carousel
+{
+  margin-bottom: 0;
+  padding: 0 5px 30px 30px;
+  margin-top: 30px;
+}
 .slide3 a.right{
-	margin-right: 40px;
+	margin-right: 10px;
 }
 .up-button{
 	cursor: pointer;
@@ -853,7 +865,7 @@ a.carousel-control {
 	z-index: 99;
 }
 .footer-logo{
-	margin-left: 50px;
+	margin-left: 30px;
 }
 .dropdown-menu{
 	display: none;
