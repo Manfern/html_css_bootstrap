@@ -763,7 +763,10 @@ a.thumbnail{
 	font-size: 16px;
 	font-weight: 700;
 	margin-right: 10px;
-	margin-bottom: 10px;
+
+}
+.side-slide1 .thumbnail{
+
 }
 .tab-pane{
 	margin-top: 0px;
@@ -934,4 +937,26 @@ dl dd {
 	float: right;
 	padding-right: 15px;
 	width: 40px;
+}
+
+.town-list{
+	display: none;
+	margin-top: 20px;
+	margin-left: 850px;
+	z-index: 99;
+	position: absolute;
+	cursor: pointer;
+	float: left;
+	background-color: #fff;
+}
+.town-list a{
+	text-decoration: underline;
+	color: #23527c;
+}
+.town-list ul{
+	padding: 15px;
+	padding-bottom: 5px;
+	text-align: left;
+	float: left;
+	list-style-type: none;
 }
