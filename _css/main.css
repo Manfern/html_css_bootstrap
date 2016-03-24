@@ -691,9 +691,19 @@ body a{
 .footer p{
 	width: 240px;
 }
-.footer-info img{
+.side-slider1 .slider-block{
 
+	margin-left: 15px;
+	padding-left: 5px;
+	border: 1px solid #e3dbd9;
+}
+.footer-info img{
+	
+	
 	margin-right: 15px;
+}
+.slider-block p{
+	height: 60px;
 }
 .footer a{
 	color: #23527c;
@@ -701,7 +711,7 @@ body a{
 .footer-info{
 	margin-left: 50px;
 	line-height: 1.8;
-	width: 200px;
+	width: 220px;
 }
 .slider-block{
 	padding-top: 0px;
@@ -846,7 +856,7 @@ a.carousel-control {
 
 }
 .side-slider2 .carousel-inner{
-	height: 410px;
+	height: 500px;
 	width: 180px;
 	padding-right: 10px;
 	background-color: transparent;
