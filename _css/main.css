@@ -379,9 +379,13 @@ body a{
 		padding-left: 0px;
 		padding-right: 0px;
 	}
+	.top{
+
+	}
 	.container-fluid{
+		background-color: #fcfaf6;
 		height: 90px;
-		background-color: #fff;
+		
 		margin-bottom: 20px;
 	}
 	.navbar-header{
