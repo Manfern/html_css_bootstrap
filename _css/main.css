@@ -182,7 +182,7 @@ body a{
 		margin-top:15px;
 		margin-left:0px;
 		margin-right:20px;
-		border-bottom: 2px solid #e3dbd9;
+		border-bottom: 4px solid #e3dbd9;
 	}
 	.menu2 li{
 		padding-left: -10px;
@@ -213,7 +213,7 @@ body a{
 	 div.main > nav > ul > li{
 	 	height: 64px;
 	 	padding-top: 10px;
-	 	border-bottom: 1px solid #e3dbd9;
+	 	border-bottom: 3px solid #e3dbd9;
 		/*z-index: 99;*/
 		/*background-image: url(../_img/i_tab_hover.png) !important;
 		background-size: cover !important;
@@ -736,9 +736,11 @@ a.thumbnail{
 }
 
 .redthumb{
+	text-decoration: underline;
 	color: #c00000;
 	font-size: 16px;
 	font-weight: 700;
+	margin-right: 10px;
 	margin-bottom: 10px;
 }
 .tab-pane{
@@ -827,6 +829,11 @@ nav.row{
 }
 .side-slider2 .slide{
 	height: 430px;
+}
+.side-slider2 a{
+	font-weight: 700;
+	font-size: 16px;
+	text-decoration: none;
 }
 .media-carousel .carousel-control.left{
 	border: 0px;
