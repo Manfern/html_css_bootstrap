@@ -8,9 +8,7 @@ body a{
 .menu li{
 	text-decoration: underline;
 }
-.dropdown-menu{
-	display: none;
-}
+
 	.container-fluid{
 		float: none;
 		margin: 0 auto;
@@ -769,27 +767,6 @@ a.thumbnail{
 	padding-top: 50px;
 
 }
-/* DD list styles*/
-dl {
-
-	margin-bottom:50px;
-
-}
-
-dl dt {
-	background:#5f9be3;
-	color:#fff;
-	float:left;
-	font-weight:bold;
-	margin-right:10px;
-	padding:5px;
-	width:100px;
-}
-
-dl dd {
-	margin:2px 0;
-	padding:5px 0;
-}
 
 nav.row{
 
@@ -877,4 +854,52 @@ a.carousel-control {
 }
 .footer-logo{
 	margin-left: 50px;
+}
+.dropdown-menu{
+
+	margin-left: 495px;
+	margin-top: 310px;
+	display: block;
+	width: 290px;
+	height: 415px;
+	position: absolute;
+	z-index: 99;
+	cursor: pointer;
+	background-image: url("../_img/dd_back.png");
+	background-size: cover;
+}
+/* DD list styles*/
+dl {
+	
+	/*margin-top: 70px;*/
+	
+	display: inline-block;
+	width: 300px;
+	height: 425px;
+	margin-bottom:0px;
+	/*background-image: ("../_img/dd_back.png");*/
+	/*background-size: cover;*/
+}
+
+dl dt {
+	padding-top: 10px;
+	padding-left: 20px;
+	
+	/*background:#5f9be3;*/
+	float: left;
+	color:#000;
+	
+	font-weight:bold;
+	
+	
+	width: 220px;
+	
+}
+
+dl dd {
+	margin-top: 10px;
+	color: #9d9b9a;
+	float: right;
+	padding-right: 15px;
+	width: 40px;
 }
